@@ -5,9 +5,12 @@ body {
 
 #level-title {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    margin: 2%;
+    /* font-size: 3rem; */
     color: #FEF2BF;
+}
+
+h1 {
+    margin: 40px;
 }
 
 .btn {
