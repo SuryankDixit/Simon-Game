@@ -24,7 +24,7 @@ function nextSequence() {
     $("#" + randomChosenColour).fadeOut(100).fadeIn(100);
 
     playSound(randomChosenColour);
-    $("h1").text("Level " + level);
+    $("h2").text("Level " + level);
     level++;
 }
 
@@ -75,7 +75,7 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over");
         }, 200);
         startOver();
-        $("h1").text("Game Over, Press Any Key to Restart");
+        $("h2").text("Game Over, Press Any Key to Restart");
     }
 }
 
